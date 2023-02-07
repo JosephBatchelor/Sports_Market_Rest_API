@@ -172,7 +172,7 @@ As a developer,
 So that I can pull bookmaker data into my modelling tools, 
 I want the historical prices to be available in a GET request (localhost is fine).
 
-Comment: "I wasn't able to complete task as betfair doesnt offer historical access to data via api and has to be pruchased and downloaded. This link explains the details [Betfair Historical Data]([https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/market-book_event_runner.png](https://historicdata.betfair.com/#/home)).
+Comment: "I wasn't able to complete task as betfair doesnt offer historical access to data via api and has to be pruchased and downloaded. This link explains the details [Betfair Historical Data]([https://docs.developer.betfair.com/display/1smk3cen4v3lu3yomq5qye0ni/Application+Keys](https://historicdata.betfair.com/#/home)
 
 
 Instead of historical data i stored runner data. So everytime you search for a spesific runner using GET /market-book/:eventid/:selectionId it would store its data within a databse. Apologies for the inconvenience but I thought I'd do this approach just so i can demostrate my ability of intergrating a databse and the use orm to store data."
