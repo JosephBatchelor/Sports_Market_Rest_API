@@ -138,33 +138,39 @@ This will provde all market book details for spesific runners in spesific events
 
 
 
-## User stories & tests
+## User stories 
 
+1).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 I want to scrape a list of odds from a bookmaker for a future horse racing event.
 
-
+1).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 The data pulled should be the horse name and current odds. 
 
+2).
 As a developer, 
 So that I can reuse my code, 
 I want to be able to modify the program to easily change the event I am scraping. 
 
+3).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 I want the historical prices to be available in a GET request (localhost is fine).
 
+4).
 As a developer, 
 So that I can keep track of the price in real-time, 
 I want to be able to call the API every minute without getting rate-limited. 
 
+5).
 As a developer, 
 So that I have confidence in the code, 
 I want each user story to be feature tested.
 
+6).
 As a developer, 
 So that I have a record of historical prices, 
 I want the data to be saved into a PostgreSQL database 
