@@ -130,3 +130,48 @@ This will provide all market book details for spesific events using an eventid w
 This will provde all market book details for spesific runners in spesific events the selectionid can be found in /market-book/:eventid. 
 
 ![Market-book/eventid/runnerid](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/market-book_event_runner.png)
+
+
+
+
+
+
+
+
+### User stories
+
+As a developer, 
+So that I can pull bookmaker data into my modelling tools, 
+I want to scrape a list of odds from a bookmaker for a future horse racing event.
+
+
+As a developer, 
+So that I can pull bookmaker data into my modelling tools, 
+The data pulled should be the horse name and current odds. 
+
+As a developer, 
+So that I can reuse my code, 
+I want to be able to modify the program to easily change the event I am scraping. 
+
+As a developer, 
+So that I can pull bookmaker data into my modelling tools, 
+I want the historical prices to be available in a GET request (localhost is fine).
+
+As a developer, 
+So that I can keep track of the price in real-time, 
+I want to be able to call the API every minute without getting rate-limited. 
+
+As a developer, 
+So that I have confidence in the code, 
+I want each user story to be feature tested.
+
+As a developer, 
+So that I have a record of historical prices, 
+I want the data to be saved into a PostgreSQL database 
+
+
+
+
+
+
+
