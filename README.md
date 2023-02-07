@@ -67,7 +67,7 @@ If you have any problems during the installation and setup process, please don't
 ```http
   GET /event-types
 ```
-This will provide a list of event-types (i.e. football, tennis horse racing).
+This will provide a list of event-types (i.e. football, tennis horse racing) with their corresponding details.
 
 ![event-types](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/event-types.png)
 
@@ -83,7 +83,7 @@ This will provide a list of event-types (i.e. football, tennis horse racing).
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `integer` | **Required**. Id of the event to fetch |
 
-This will provide the details of spsefic events based its id. The id can be obtained from "/event-types".
+This will provide the details of spesific events based its id. The id can be obtained from "/event-types".
 
 ![events](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/events.png)
 
@@ -92,7 +92,7 @@ This will provide the details of spsefic events based its id. The id can be obta
 ```http
   GET /market-book
 ```
-This will provde all market book details for all events.
+This will provide all market book details for all events.
 
 ![Market-book](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/market-book.png)
 
@@ -109,7 +109,7 @@ This will provde all market book details for all events.
 | :-------- | :------- | :-------------------------------- |
 | `eventid`      | `integer` | **Required**. Id of the event to fetch market data for |
 
-This will provde all market book details for spesific events.
+This will provide all market book details for spesific events using an eventid which can be obtained from /events/:id.
 
 ![Market-book/eventid](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/market-book_event.png)
 
@@ -127,6 +127,6 @@ This will provde all market book details for spesific events.
 | `selectionId`      | `integer` | **Required**. Id of the runner   |
 
 
-This will provde all market book details for spesific runners in spesific events.() 
+This will provde all market book details for spesific runners in spesific events the selectionid can be found in /market-book/:eventid. 
 
 ![Market-book/eventid/runnerid](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/market-book_event_runner.png)
