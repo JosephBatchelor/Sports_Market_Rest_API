@@ -147,21 +147,27 @@ I want to scrape a list of odds from a bookmaker for a future horse racing event
 
 Comment: "This can be done by using the  GET /market-book/:eventid, to reteive all market data about an event. The eventid must be found in GET /events/:id and the id is found in GET /event-types".
 
-1).
+
+
+2).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 The data pulled should be the horse name and current odds. 
 
 Comment: "This task can be completed by using the GET /market-book/:eventid, where the eventid is found at GET /events/:id, and the id is found in GET /event-types"
 
-2).
+
+
+3).
 As a developer, 
 So that I can reuse my code, 
 I want to be able to modify the program to easily change the event I am scraping. 
 
-Commnet: ""
+Commnet: "This can be acheived by using the  GET /market-book/:eventid, where the eventid is found at GET /events/:id, and the id is found in GET /event-types. the eventid for GET /market-book/:eventid can be easily changed in the url to different active events."
 
-3).
+
+
+4).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 I want the historical prices to be available in a GET request (localhost is fine).
@@ -172,17 +178,21 @@ Instead of historical data i stored runner data. So everytime you search for a s
 
 
 
-4).
+5).
 As a developer, 
 So that I can keep track of the price in real-time, 
 I want to be able to call the API every minute without getting rate-limited. 
 
-5).
+
+
+6).
 As a developer, 
 So that I have confidence in the code, 
 I want each user story to be feature tested.
 
-6).
+
+
+7).
 As a developer, 
 So that I have a record of historical prices, 
 I want the data to be saved into a PostgreSQL database 
