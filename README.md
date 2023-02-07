@@ -56,10 +56,16 @@ he database connector is located in the model/HorseDetails.js file. To set up th
 
 ![HorseDetails File](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/db%20setup.png)
 
+### Testing
+
+In order to test the functionality of the Node API, simply run the following command in your terminal:
+
 That's it! You have successfully installed and set up the WSD Technical task project.
 
 If you have any problems during the installation and setup process, please don't hesitate to reach out to me for assistance.
 ## API Reference
+
+
 
 
 ### Get all events types
