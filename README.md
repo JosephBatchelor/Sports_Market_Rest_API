@@ -185,6 +185,7 @@ So that I can keep track of the price in real-time,
 I want to be able to call the API every minute without getting rate-limited. 
 
 Comment: "This prety straight forward when using axios the code below demostrates how i achieved this, and how it works"
+![rate limiter]([https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/tests%20results.png](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/rate%20limit.png))
 
 
 6).
@@ -199,3 +200,6 @@ Comment: "I have tested everything apart from my postgres database as i was havi
 As a developer, 
 So that I have a record of historical prices, 
 I want the data to be saved into a PostgreSQL database 
+
+![db model]([https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/tests%20results.png](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/db%20model.png))
+
