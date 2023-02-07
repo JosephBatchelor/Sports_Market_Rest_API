@@ -193,6 +193,7 @@ So that I have confidence in the code,
 I want each user story to be feature tested.
 
 Comment: "I have tested everything apart from my postgres database as i was having problems with it, other than that all route and use cases have been tested."
+![results](https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/tests%20results.png)
 
 7).
 As a developer, 
