@@ -145,20 +145,32 @@ As a developer,
 So that I can pull bookmaker data into my modelling tools, 
 I want to scrape a list of odds from a bookmaker for a future horse racing event.
 
+Comment: "This can be done by using the  GET /market-book/:eventid, to reteive all market data about an event. The eventid must be found in GET /events/:id and the id is found in GET /event-types".
+
 1).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 The data pulled should be the horse name and current odds. 
+
+Comment: "This task can be completed by using the GET /market-book/:eventid, where the eventid is found at GET /events/:id, and the id is found in GET /event-types"
 
 2).
 As a developer, 
 So that I can reuse my code, 
 I want to be able to modify the program to easily change the event I am scraping. 
 
+Commnet: ""
+
 3).
 As a developer, 
 So that I can pull bookmaker data into my modelling tools, 
 I want the historical prices to be available in a GET request (localhost is fine).
+
+Comment: "I wasn't able to complete task as betfair doesnt historical access to data via api and has to be pruchased. This link explains the details ![Betfair Historical Data]([https://github.com/JosephBatchelor/WSD_Technical_Test/blob/main/RDME_Images/market-book_event_runner.png](https://historicdata.betfair.com/#/home)).
+
+Instead of historical data i stored runner data. So everytime you search for a spesific runner using GET /market-book/:eventid/:selectionId it would store its data within a databse. Apologies for the inconvenience but I thought I'd do this approach just so i can demostrate my ability of intergrating a databse and the use orm to store data."
+
+
 
 4).
 As a developer, 
@@ -174,10 +186,3 @@ I want each user story to be feature tested.
 As a developer, 
 So that I have a record of historical prices, 
 I want the data to be saved into a PostgreSQL database 
-
-
-
-
-
-
-
