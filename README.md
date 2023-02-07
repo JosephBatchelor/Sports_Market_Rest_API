@@ -184,7 +184,7 @@ As a developer,
 So that I can keep track of the price in real-time, 
 I want to be able to call the API every minute without getting rate-limited. 
 
-Comment: "This prety straight forward when using axious the code below demostrates how i achieved this."
+Comment: "This prety straight forward when using axios the code below demostrates how i achieved this, and how it works"
 
 
 6).
@@ -192,7 +192,7 @@ As a developer,
 So that I have confidence in the code, 
 I want each user story to be feature tested.
 
-
+Comment: "I have tested everything apart from my postgres database as i was having problems with it, other than that all route and use cases have been tested."
 
 7).
 As a developer, 
