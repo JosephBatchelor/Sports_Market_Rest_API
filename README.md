@@ -1,7 +1,7 @@
 
 # WSD_ RestAPI_Technical_project
 
-This is a RestApi that returns Betting data about horse racing events, Using the betfair api.
+This is an application that returns Betting data about horse racing events, Using the betfair api.
 
 
 
