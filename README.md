@@ -1,5 +1,5 @@
 
-# WSD_Technical_project
+# Sports Market RestAPI
 
 This is an application that returns Betting data about horse racing events, Using the betfair api.
 
